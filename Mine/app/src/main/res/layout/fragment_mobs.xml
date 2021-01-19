@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="71dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/creeperrr"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Creeper\nCreepers são criaturas comuns
+e hostis que irão explodir quando a cerca de um jogador."
+        android:gravity="center"
+        android:layout_marginTop="-145dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="71dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/golem"
+        android:layout_gravity="right"/>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Golem de ferro\nGolem de ferro ou iron golem
+é uma criatura utilitária grande e forte que defende jogadores e aldeões."
+        android:gravity="center"
+        android:layout_marginTop="-145dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="71dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/vilager"
+        android:layout_gravity="right"/>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="aldeões\nOs aldeões são criaturas passivas que habitam vilas,
+trabalham, procriam e interagem. Suas roupas variam de acordo com
+sua profissão e bioma. Um jogador pode negociar com aldeões,
+usando esmeraldas como moeda de troca/escambo."
+        android:gravity="center"
+        android:layout_marginTop="-145dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="71dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/zumbi"
+        android:layout_gravity="right"/>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Zumbi\nUm Zumbi é o mob hostil mais comum do jogo.
+Os aldeões são constantemente atacados por zombies durante a noite,
+mas são defendidos por um golem de ferro (dão spawn quando uma vila é muito grande)."
+        android:gravity="center"
+        android:layout_marginTop="-115dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="71dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/lobo"
+        android:layout_gravity="right"/>
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Lobo\nOs lobos são criaturas neutras as quais podem se aliar
+aos jogadores. Podem ser domesticados quando o jogador os alimenta com ossos."
+        android:gravity="center"
+        android:layout_marginTop="-145dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

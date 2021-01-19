@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/fundo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/capademolidor" />
+    <TextView
+        android:id="@+id/backgroundTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Marvel - Demolidor"
+        android:textSize="30dp"
+        android:textColor="@color/colorTitle"
+        android:background="@color/fundo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Marvel - Demolidor"
+        android:textSize="30dp"
+        android:background="@color/fundo"
+        android:textColor="@color/colorTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Advogado durante o dia, Matt Murdock usa à noite seus sentidos aguçados, adquiridos em um acidente na infância que lhe deixou cego, para combater o crime nas ruas de Hell's Kitchen, bairro onde cresceu em Nova York. A primeira temporada vê Wilson Fisk travando uma guerra de gangues com os russos e procura ascender seu poder político. Mesmo sem recursos, Murdock e seus aliados devem expor a verdadeira identidade de Fisk e derrotá-lo. Na segunda temporada, Murdock continua a equilibrar a vida como advogado e vigilante, enquanto cruza caminhos com Frank Castle, um vigilante com métodos muito mais mortais, assim como o retorno de sua ex-namorada – Elektra Natchios. Já na terceira temporada, Murdock tem que lidar com conflitos internos. A temporada se passa logo após os eventos de Os Defensores e conta com a volta de Wilson Fisk como antagonista, além de apresentar outro vilão de peso do Demolidor nos quadrinhos, o Mercenário."
+        android:textAlignment="center"
+        android:textColor="@color/colorTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backgroundTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="103dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="68dp"
+        android:onClick="play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/playvideo" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

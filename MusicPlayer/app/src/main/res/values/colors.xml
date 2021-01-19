@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E82535</color>
+    <color name="colorPrimaryDark">#E82535</color>
+    <color name="colorAccent">#E82535</color>
+    <color name="fundo">#0F0D12</color>
+    <color name="vermelho">#E82535</color>
+    <color name="preto">#000000</color>
+    <color name="thumb1">#730E0E</color>
+    <color name="thumb2">#F2D7B6</color>
+    <color name="thumb3">#5545BF</color>
+    <color name="branco">#ffffff</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PlaystationApp</string>
+    <array name="opcoes">
+        <item>Novato</item>
+        <item>Experiente</item>
+        <item>Matador de deuses</item>
+        <item>Ninja habilidoso</item>
+        <item>Sobrevivente</item>
+    </array>
+</resources>

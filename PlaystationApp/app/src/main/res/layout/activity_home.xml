@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:background="#E3E3E3">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/top"
+        android:background="@color/preto"
+        android:layout_gravity="center"
+        />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/iconekratos2"
+        android:id="@+id/iconeUsuario"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/textoEntrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Seja bem vindo, NomeConvidado!"
+        android:textColor="@color/preto"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/textoTitulo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="O novato"
+        android:textColor="@color/branco"
+        android:background="@color/preto"
+        android:textSize="25dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/playstation5"
+            android:layout_gravity="center"
+            android:onClick="playstation"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Playstation 5 anunciado!"
+                android:textSize="20dp"
+                android:textColor="@color/branco"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/preto"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

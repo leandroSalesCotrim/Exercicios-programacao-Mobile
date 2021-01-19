@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Ferramentas de mineração"
+        android:textSize="30dp"
+        android:textColor="@color/branco"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/preto"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Picareta, Machado, Enxada e pá"
+        android:textSize="20dp"
+        android:textColor="@color/preto"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="282dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/ferramentas"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="*se o material for alterado, o item final tera um resultado diferente\n
+EX:mudar pedra por ferro resultara numa picareta de ferro*"
+        android:textSize="10dp"
+        android:textColor="@color/preto"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/preto"
+                android:gravity="center"
+                android:text="Mesa de trabalho"
+                android:textColor="@color/branco"
+                android:textSize="30dp" />
+
+            <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="282dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/craftingtable"
+        android:layout_gravity="center"
+        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Fornalha"
+                android:textSize="30dp"
+                android:textColor="@color/branco"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/preto"
+                />
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="282dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/fornalha"
+        android:layout_gravity="center"
+        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Madeira feita"
+                android:textSize="30dp"
+                android:textColor="@color/branco"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/preto"
+                />
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="282dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/madeira"
+        android:layout_gravity="center"
+        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Tocha"
+                android:textSize="30dp"
+                android:textColor="@color/branco"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/preto"
+                />
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="282dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/tocha"
+        android:layout_gravity="center"
+        />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

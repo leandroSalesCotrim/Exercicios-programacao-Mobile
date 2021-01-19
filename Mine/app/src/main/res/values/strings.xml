@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Minecraft</string>
+    <string name="title_activity_home_mine">Minecraft</string>
+    <array name="opcoes">
+        <item>Novato</item>
+        <item>Explorador</item>
+        <item>Caçador</item>
+        <item>Comunista</item>
+        <item>Udyr</item>
+    </array>
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Playstation">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/top"
+        android:background="@color/preto"
+        android:layout_gravity="center"
+        />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Playstation 5 "
+                android:textSize="30dp"
+                android:textColor="@color/preto"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/playstation5"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lançamento no fim de 2020"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/ps5group"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Veloz como um raio"
+                android:textSize="30dp"
+                android:textColor="@color/branco"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas
+que redefinem as regras do que o console PlayStation pode fazer. "
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="SSD ultrarrápido "
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/branco"
+                android:layout_marginTop="15dp"
+                android:background="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maximize suas sessões de jogo com tempos de carregamento praticamente instantâneos para jogos do PS5™ instalados. "
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="E/S integrada"
+                android:textSize="20dp"
+                android:layout_gravity="left"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/branco"
+                android:layout_marginTop="25dp"
+                android:background="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A integração personalizada dos sistemas de console PS5™ permite que os criadores extraiam dados do SSD tão rápido que eles podem desenvolver jogos de formas que antes seriam impossíveis."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Os jogos que você quer"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                android:layout_marginTop="25dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sm"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marvel's Spider-Man: Miles Morales"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faça parte da ascensão de Miles Morales e veja este novo
+herói dominar novos poderes incríveis e explosivos para se tornar o novo Homem-Aranha."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hfw"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horizon Forbidden West"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Junte-se a Aloy e explore o Oeste Proibido, uma fronteira
+repleta de encantos e perigos que esconde ameaças novas e misteriosas."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rc"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ratchet and Clank: Rift Apart"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entre em uma ventura explosiva einterdimensional
+com Ratchet and Clank."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gt"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gran Turismo 7"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O Gran Turismo 7 tira aproveita os 22 anos de experiência para trazer a você os melhores recursos da história da franquia."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rt"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Returnal"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quebre o ciclo do caos em um planeta alienígena em constante mudança neste jogo de tiro no estilo masmorra em terceira pessoa."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sba"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sackboy A Big Adventure"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/preto"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acompanhe Sackboy em uma épica aventura de plataforma 3D com seus amigos."
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
