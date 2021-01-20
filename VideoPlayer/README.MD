@@ -3,9 +3,12 @@
   (desenvolvido com base nas aulas)</h3>
 <br>
 <h1>Capturas de tela:<h1>
+  <div>
   <img width="20%" src="prints/print1.jpg">
-  <img width="20%" src="prints/print2.jpg">
-  <img width="20%" src="prints/print3.jpg">
+  </div>
+  <br>
+  <img width="40%" src="prints/print2.jpg">
+  <img width="40%" src="prints/print3.jpg">
 <br>
 
 <h1>Como funciona :</h1>
@@ -20,4 +23,5 @@
     <ol>botão de adiantar (adianta 15 segundos do video)</ol>
   <li>Possui uma seekBar que acompanha o proguesso da reprodução do video e é possivel controlar a reprodução do video com a mesma<l1>
   <li>Possui uma seekBar que controla o som de reprodução do dispositivo<l1>
+  <li>O aplicativo automaticamente muda a orientação da tela para Landscape<l1>
 </ul>
