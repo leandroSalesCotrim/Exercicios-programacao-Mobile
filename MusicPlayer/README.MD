@@ -7,7 +7,9 @@
 
 <br>
 <h1>Capturas de tela:<h1>
-<img src="print/img1">
+  <img width="20%" src="prints/print1.jpg">
+  <img width="20%" src="prints/print2.jpg">
+  <img width="20%" src="prints/print3.jpg">
 <br>
 
 <h1>Como funciona :</h1>
