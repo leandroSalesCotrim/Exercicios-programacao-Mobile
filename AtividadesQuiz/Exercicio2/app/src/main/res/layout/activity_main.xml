@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/sem"
+        android:layout_marginTop="-20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historia dos darkins"
+        android:textColor="@color/colorWord"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="italic"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Comeco"
+        android:text="Iniciar"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorWord"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>

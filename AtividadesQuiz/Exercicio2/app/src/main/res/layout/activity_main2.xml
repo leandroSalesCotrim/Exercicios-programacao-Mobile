@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/aatrox"
+        android:layout_marginTop="-10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="-13dp"
+        app:srcCompat="@drawable/teste"/>
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="-13dp"
+        app:srcCompat="@drawable/kayn"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha um para ler sobre"
+        android:gravity="center"
+        android:textSize="34dp"
+        android:id="@+id/teste"
+        android:textColor="@color/colorWord"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:entries="@array/opcoes"
+        android:gravity="center"
+        android:id="@+id/spinner"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="145dp"
+        android:background="@color/colorWord"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="120dp"
+        android:background="@color/colorWord"
+        android:fontFamily="sans-serif"
+        android:onClick="Personagem"
+        android:text="LER SOBRE"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+</LinearLayout>

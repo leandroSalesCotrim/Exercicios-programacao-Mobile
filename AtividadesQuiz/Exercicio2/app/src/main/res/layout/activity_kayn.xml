@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/kayn"
+        android:layout_marginTop="-10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorKayn"
+        android:text="hr"
+        android:textColor="@color/colorWord"
+        android:layout_marginTop="-7dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nascido em Noxus, Shieda Kayn e seus semelhantes foram recrutados como crianças-soldado, uma prática nefasta praticada apenas pelos comandantes mais cruéis do império de Boram Darkwill. Após uma desastrosa batalha no Placídio de Navori, a invasão deliberadamente se transformou em uma prolongada e desgastante guerra. A compaixão ioniana era uma fraqueza a ser explorada; Noxus sabia que os guerreiros hesitavam antes de executar alguém que poderia ser inocente. Assim, mal conseguindo segurar a espada que lhe fora dada, o primeiro dia de batalha de Kayn também prometia ser o último.
+
+Avançando sobre a província de Bahrl, as forças noxianas aportaram na foz do Rio Epool. Kayn e as outras crianças eram uma vanguarda relutante que enfrentava grupos desorganizados de nativos que tentavam defender seus lares dos persistentes invasores. Enquanto seus jovens companheiros eram aniquilados ou fugiam do campo de batalha, Kayn não mostrava nenhum sinal de medo. Ele soltou sua pesada espada e apanhou uma foice caída, virando-se para encarar os ionianos estupefatos no exato momento em que os noxianos se infiltraram pelo flanco.
+
+A carnificina foi atordoante. Fazendeiros, caçadores — e até alguns vastaya — foram aniquilados sem cerimônia.
+
+Dois dias depois, quando a notícia já tinha se espalhado por todos os territórios do sul, a Ordem das Sombras chegou àquele cenário aterrador. Seu líder, Zed, sabia que esta área não tinha nenhuma relevância tática. O massacre fora apenas um aviso. Noxus não teria piedade.
+
+Foi então que um pedaço reluzente de aço chamou sua atenção. Uma criança de no máximo dez anos estava deitada na lama, apontando sua foice quebrada para o mestre assassino e com punhos retesados e ensanguentados. Os olhos do garoto expressavam uma dor incompatível com sua idade, mas que ainda assim transmitia toda a ira de um guerreiro calejado. Esse tipo de tenacidade era algo que não podia ser ensinado. Zed viu nesse garoto, nesse sobrevivente noxiano abandonado, uma arma que poderia se virar contra aqueles que o mandaram até aqui para morrer. O assassino estendeu a mão e recebeu Kayn na Ordem das Sombras.
+
+Os acólitos normalmente passavam anos treinando com uma única arma, mas Kayn aprendeu a usar todas elas. Para ele, elas não passavam de meras ferramentas e apenas ele era a verdadeira arma. Ele considerava a armadura um peso desnecessário e preferia se esconder nas sombras para exterminar seus inimigos com agilidade e discrição. Essas execuções rápidas enchiam de medo os corações dos que tinham a sorte de serem poupados.
+
+E a lenda de Kayn crescia, assim como sua arrogância. Ele realmente acreditava que um dia seu poder ofuscaria até o do próprio Zed.
+
+Essa arrogância levou Kayn a aceitar um desafio final: procurar a arma darkin que tinha sido desenterrada recentemente em Noxus e impedir que ela fosse usada contra os abatidos defensores de Ionia. Ele foi sem hesitar e sem jamais questionar por que o escolheram para esta missão. De fato, enquanto qualquer outro acólito teria destruído a foice viva conhecida como Rhaast, Kayn resolveu ficar com ela.
+
+Ele foi corrompido no momento em que colocou as mãos na arma, segurando-a com firmeza e determinação. Rhaast há muito esperava que o hospedeiro ideal viesse para que ele e seus irmãos darkin pudessem assolar o mundo juntos, mas Kayn não seria facilmente dominado. Ele voltou para Ionia triunfante, convencido de que Zed iria nomeá-lo como o novo líder da Ordem das Sombras."
+            android:fontFamily="sans-serif-thin"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorTeste"
+            />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorHr"
+        android:text="hr"
+        android:textColor="@color/colorWord"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWord"
+        android:text="Você recomendaria nosso App?"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sim"
+            android:textColor="@color/colorBackground"
+            android:background="@color/colorWord"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorBackground"
+            android:background="@color/colorWord"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWord"
+        android:text="Por qual razão você recomendaria ou não nosso App?"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visual do aplicativo"
+        android:textColor="@color/colorBackground"
+        android:background="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otimização"
+        android:textColor="@color/colorBackground"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conteúdo"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/colorBackground"
+        android:background="@color/colorWord"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBackground"
+        android:hint="Outro Motivo"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:background="@color/colorWord"
+        android:layout_marginTop="2dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorWord"
+        android:textStyle="italic"
+        />
+</LinearLayout>

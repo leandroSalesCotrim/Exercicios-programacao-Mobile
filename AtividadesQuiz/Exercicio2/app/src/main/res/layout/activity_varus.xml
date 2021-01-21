@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VarusActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/teste"
+        android:layout_marginTop="-10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorVarus"
+        android:text="hr"
+        android:textColor="@color/colorWord"
+        android:layout_marginTop="-7dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apesar do que viria a se tornar um dia, Varus já foi um modelo de lealdade e honra. Habilidoso arqueiro do antigo império shurimane, ele foi nomeado guardião do templo nos estados orientais e manteve este dever sagrado acima de tudo.
+
+Durante os primeiros momentos da guerra contra Icathia, mesmo tão longe daquele lugar amaldiçoado, a terra natal de Varus foi atacada. Enquanto os outros guardiões abandonaram seus postos para se juntarem à defesa das aldeias periféricas, ele permaneceu, gritando com aflição a cada flecha lançada; pois tinha escolhido defender seu juramento em vez de voltar para casa para proteger sua própria família.
+
+Os mensageiros do Batalhão dos Ascendentes o encontraram ajoelhado em solene meditação entre os cadáveres de seus inimigos. Dizem que seu olhar indiferente incomodava até os próprios guerreiros-deuses, mas mesmo assim, em reconhecimento ao seu nobre sacrifício, Varus assumiu um posto em suas fileiras.
+
+Por ser um dos grandes Ascendentes, ele foi totalmente consumido pela sede de vingança contra os icathianos e contra as terríveis criaturas do Vazio que eles tinham libertado. É provável que Varus nem tenha entendido que Shurima terminara vencendo aquela guerra, de tão perturbado que ficou; nem entendido a queda do império, alguns séculos depois. Uma atrocidade atrás da outra, se acumulando de forma turva, transformando-o em um assassino arredio e insensível, mandado para o campo de batalha incontáveis vezes pelos degenerados membros de sua raça.
+
+O nome deles passou a ser temido por todo o território.
+
+Os darkin.
+
+Guerreando entre si, eles destruíam qualquer um que ousasse desafiá-los. Com seu arco cristalino, Varus assassinou comandantes inimigos e campeões, ajudando os darkin a derrotar exércitos inteiros de mortais com facilidade.
+
+No fim, Varus foi encurralado por feras caçadoras vastayesas e magos humanos a serviço de uma rainha guerreira de armadura dourada de Valoran. Eles o aprisionaram em seu arco cristalino, onde ele não podia fazer mais nada além de berrar, completamente impotente. Àquela altura, a influência devastadora dos darkin já era conhecida e mesmo assim a rainha decidiu empunhar aquela arma mortal nos últimos dias da guerra, sacrificando a si mesma por uma vitória grandiosa.
+
+Nos meses que se seguiram, a rainha levou Varus para as Primeiras Terras, que mais tarde seriam conhecidas como Ionia. Transformada em um monstro pelo poder do arco, seu último ato foi ordenar a seus seguidores que a enterrassem em um poço sem luz, submerso em um templo na montanha, com vista para a aldeia de Pallas.
+
+E lá Varus ficou aprisionado, tanto pela magia natural de Ionia quanto pelos rituais celebrados pelos guardiões do templo.
+
+O arco permaneceu oculto durante séculos, desconhecido, intocado e quase esquecido, até que invasores noxianos atacaram as Primeiras Terras. Dois caçadores de bestas — Valmar e a luz de sua vida, Kai — lutaram contra a primeira onda de invasores no Templo de Pallas. Apesar de terem enfrentado e afugentado os agressores com extrema coragem, Kai terminou sendo ferido mortalmente e Val o carregou para dentro do templo em um luto profundo, acreditando que a magia proibida do poço poderia trazer Kai de volta.
+
+No entanto, no templo não havia nada além da condenação e os dois caçadores foram consumidos pelo poder do darkin que lá estava encarcerado. A matéria dos dois corpos foi completamente desfeita e reagrupada em um turbilhão, criando uma nova; um corpo perfeito para libertar Varus de seu cárcere. O que emergiu do poço foi uma criatura gestáltica, pálida e desumanamente bela, metade humana, metade darkin. Depois de mais de mil anos, Varus renasceu.
+
+Mas os elementos humanos e darkin de seu corpo recém-nascido ainda permanecem em fluxo constante, e cada um deles luta para assumir o seu controle por um breve período, antes de ser afastado pelo outro. Varus luta para silenciar a resistência de Val e Kai de uma vez por todas, para finalmente poder se vingar dos mortais que destruíram sua raça. No entanto, Val e Kai resistem ao máximo contra sua influência maligna, numa esperança sem fim de que seu amor possa superar o ódio do darkin.
+
+Ninguém sabe por quanto tempo eles conseguirão manter Varus sob controle. Mas se esse assassino darkin sádico e egoísta dominar seu novo corpo completamente, é certo que ele tentará se reunir com os sobreviventes da sua raça na esperança de transformar Runeterra em cinzas."
+            android:fontFamily="sans-serif-thin"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorTeste2"
+            />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorVarus"
+        android:text="hr"
+        android:textColor="@color/colorWord"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWord"
+        android:text="Você recomendaria nosso App?"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sim"
+            android:textColor="@color/colorBackground"
+            android:background="@color/colorWord"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorBackground"
+            android:background="@color/colorWord"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWord"
+        android:text="Por qual razão você recomendaria ou não nosso App?"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visual do aplicativo"
+        android:textColor="@color/colorBackground"
+        android:background="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otimização"
+        android:textColor="@color/colorBackground"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conteúdo"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/colorBackground"
+        android:background="@color/colorWord"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBackground"
+        android:hint="Outro Motivo"
+        android:layout_marginTop="2dp"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:background="@color/colorWord"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorWord"
+        android:textStyle="italic"
+        />
+</LinearLayout>

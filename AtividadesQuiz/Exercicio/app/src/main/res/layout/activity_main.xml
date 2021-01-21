@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aatrox Quiz"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorWord"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1- O que é Aatrox?"
+        android:gravity="center"
+        android:textColor="@color/colorWord"
+        android:background="@color/colorSelect2"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Um Darkin"
+        android:id="@+id/darkin"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Um Anjo caido"
+        android:layout_marginTop="2dp"
+        android:id="@+id/anjo"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Um mago"
+        android:id="@+id/mago"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2- Quem participou do aprisionamente de Aatrox?"
+        android:gravity="center"
+        android:textColor="@color/colorWord"
+        android:background="@color/colorSelect2"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pantheon"
+        android:id="@+id/pantheon"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sion"
+        android:id="@+id/sion"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aspecto do crepusculo"
+        android:layout_marginTop="2dp"
+        android:id="@+id/zoe"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3- Por qual razão Aatrox busca a destruição?"
+        android:gravity="center"
+        android:textColor="@color/colorWord"
+        android:background="@color/colorSelect2"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Por estar preso à imortalidade"
+        android:background="@color/colorSelect"
+        android:id="@+id/imortal"
+        android:textColor="@color/colorWord"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Por vingança"
+        android:id="@+id/vingaca"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para a dominação de Runeterra"
+        android:layout_marginTop="2dp"
+        android:id="@+id/dominacao"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4- Marque qual desses também são darkins"
+        android:gravity="center"
+        android:textColor="@color/colorWord"
+        android:background="@color/colorSelect2"
+
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veigar"
+        android:id="@+id/veigar"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Varus"
+        android:id="@+id/varus"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rhaast"
+        android:id="@+id/rhaast"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorSelect"
+        android:textColor="@color/colorWord"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificar Respostas"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="15dp"
+        android:onClick="Verificar"
+        android:textSize="18dp"
+        android:background="@color/colorWord"
+        android:textColor="@color/colorSelect"
+
+        />
+
+
+
+</LinearLayout>

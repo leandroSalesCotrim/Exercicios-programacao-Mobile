@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#000000</color>
+    <color name="colorWord">#Ffffff</color>
+    <color name="colorTeste">#FDDFDF</color>
+    <color name="colorTeste2">#DFE0FD</color>
+    <color name="colorTeste3">#FDDFDF</color>
+    <color name="colorHr">#80FF0000</color>
+    <color name="colorVarus">#9500FF</color>
+    <color name="colorKayn">#002AFF</color>
+</resources>

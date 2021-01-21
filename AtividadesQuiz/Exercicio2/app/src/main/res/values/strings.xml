@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercicio2</string>
+
+    <array name="opcoes">
+        <item></item>
+        <item>Aatrox</item>
+        <item>Varus</item>
+        <item>Kayn</item>
+    </array>
+</resources>
